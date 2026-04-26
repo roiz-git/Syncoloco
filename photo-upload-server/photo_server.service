@@ -1,0 +1,14 @@
+[Unit]
+Description=Syncoloco Photo Upload Server
+After=network.target
+
+[Service]
+Type=simple
+User=nobody
+Group=nobody
+ExecStart=/usr/bin/python3 /opt/photo-upload-server/photo_server.py --upload-dir /path/to/photos --token YOUR_TOKEN_HERE
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
