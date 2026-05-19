@@ -5,6 +5,14 @@ iOS app that syncs your photos and videos from the Photos library to your own NA
 Your media stays on your local network. Originals only, with EXIF and embedded tags preserved.
 
 > **Designed for trusted home networks only. Not recommended on public Wi‑Fi, and never over the open internet.**
+>
+
+## Syncoloco Support
+
+  For help, questions, or to report a bug, please [email us](mailto:support.roiz@icloud.com)
+
+  You can also report issues on [GitHub](https://github.com/roiz-git/Syncoloco/issues).
+
 
 ## Features
 
